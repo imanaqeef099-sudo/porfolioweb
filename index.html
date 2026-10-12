@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adriean | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#080808;color:white;font-family:Arial,sans-serif;min-height:100vh}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #222}
+.logo{font-size:20px;font-weight:bold;letter-spacing:2px}
+nav{display:flex;gap:18px}
+a{color:#aaa;text-decoration:none}
+nav a{font-size:13px}
+a:hover{color:white}
+main{min-height:80vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px 20px}
+.content{max-width:650px}
+.icons{display:flex;justify-content:center;gap:15px;margin-bottom:30px}
+.icon{width:50px;height:50px;border:1px solid #292929;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#111;color:white;font-size:21px;transition:.3s}
+.icon:hover{background:white;color:black;transform:translateY(-4px)}
+small{color:#888;letter-spacing:4px;text-transform:uppercase}
+h1{font-size:clamp(38px,8vw,60px);margin:22px 0;line-height:1.1}
+p{color:#aaa;line-height:1.8}
+.btn{display:inline-block;margin:25px 6px 0;padding:13px 20px;background:white;color:black;border-radius:6px;font-size:13px;font-weight:bold}
+.btn.secondary{background:transparent;color:white;border:1px solid #333}
+footer{text-align:center;padding:20px;color:#555;font-size:11px}
+@media(max-width:480px){header{padding:20px 4%}.logo{font-size:15px}nav{gap:10px}nav a{font-size:11px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">ADRIEAN.</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<main>
+<div class="content">
+<div class="icons">
+<a class="icon" href="projects.html" aria-label="Projects">⌘</a>
+<a class="icon" href="about.html" aria-label="About">♙</a>
+<a class="icon" href="contact.html" aria-label="Contact">◎</a>
+</div>
+<small>Welcome to my portfolio</small>
+<h1>Hi, I'm<br>Adriean.</h1>
+<p>Welcome to my personal portfolio. Explore my profile, skills and projects.</p>
+<a class="btn" href="about.html">About Me →</a>
+<a class="btn secondary" href="projects.html">My Projects</a>
+</div>
+</main>
+
+<footer>© 2026 ADRIEAN. ALL RIGHTS RESERVED.</footer>
+</body>
+</html>
