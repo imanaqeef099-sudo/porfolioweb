@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Adriean</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#080808;color:white;font-family:Arial,sans-serif;min-height:100vh}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #222}
+.logo{font-size:20px;font-weight:bold;letter-spacing:2px;color:white}
+nav{display:flex;gap:18px}
+a{color:#aaa;text-decoration:none}
+nav a{font-size:13px}
+a:hover{color:white}
+main{min-height:80vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 20px}
+.content{max-width:650px;width:100%}
+small{color:#888;letter-spacing:4px;text-transform:uppercase}
+h1{font-size:clamp(38px,8vw,60px);margin:22px 0;line-height:1.1}
+h1 span{color:#888}
+p{color:#aaa;line-height:1.8}
+.contact-list{display:grid;gap:12px;margin-top:30px}
+.contact-item{display:flex;align-items:center;justify-content:space-between;gap:15px;text-align:left;padding:20px;border:1px solid #292929;border-radius:7px;background:#0d0d0d;transition:.2s}
+.contact-item:hover{border-color:#666}
+.contact-item strong{font-size:14px;color:white}
+.contact-item small{display:block;margin-top:7px;font-size:10px;letter-spacing:1px;color:#888}
+.arrow{font-size:20px;color:#aaa}
+.btn{display:inline-block;margin:25px 6px 0;padding:13px 20px;background:white;color:black;border-radius:6px;font-size:13px;font-weight:bold}
+.btn.secondary{background:transparent;color:white;border:1px solid #333}
+footer{text-align:center;padding:20px;color:#555;font-size:11px}
+@media(max-width:480px){
+header{padding:20px 4%;flex-wrap:wrap;gap:15px}
+.logo{font-size:15px}
+nav{gap:10px;flex-wrap:wrap}
+nav a{font-size:11px}
+.contact-item{padding:16px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a href="index.html" class="logo">ADRIEAN.</a>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<main>
+<div class="content">
+
+<small>Get In Touch</small>
+
+<h1>Let's <span>Connect.</span></h1>
+
+<p>
+Have a project idea or want to get in touch?
+You can find me through the links below.
+</p>
+
+<div class="contact-list">
+
+
+<a class="contact-item"
+href="https://t.meVoidFx1/"
+target="_blank"
+rel="noopener noreferrer">
+<div>
+<strong>Telegram</strong>
+<small>LET'S CHAT</small>
+</div>
+<span class="arrow">↗</span>
+</a>
+
+</div>
+
+<a class="btn" href="projects.html">Explore Projects →</a>
+<a class="btn secondary" href="index.html">Back Home</a>
+
+</div>
+</main>
+
+<footer>
+© 2026 ADRIEAN. ALL RIGHTS RESERVED.
+</footer>
+
+</body>
+</html>
